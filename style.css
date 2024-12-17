@@ -1,0 +1,29 @@
+i{
+    color: red;
+} 
+.cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 0;
+}
+img{
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.551);
+}
+.like{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 100px;
+    color: rgba(255, 0, 0, 0.746);
+}
+.like.active{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
